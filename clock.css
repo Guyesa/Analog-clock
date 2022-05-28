@@ -12,11 +12,14 @@ body{
     margin: auto;
     
 }
-.clock .number{
+.clock .number {
      position: absolute;
      text-align: center;
      height: 100%;
      width: 100%;
+     font-weight: bold;
+     font-size: 20px;
+     
 
     
 }
@@ -78,9 +81,47 @@ z-index: 10;
     z-index: 11;
     }
     .clock .Hand.second{
-        height: 45%;
+        height: 43%;
         width: 3px;
-        background-color: red;
+        background-color: rgb(224, 16, 16);
         transform: rotate(30deg);
         z-index: 12;
         }
+        .number6{
+            transform: rotate(180deg);
+        }
+       .flip2{
+       transform: rotate(-60deg);
+       }
+       .flip4
+       {
+           transform: rotate(-120deg);
+       }
+     .flip3
+     {
+         transform: rotate(-90deg);
+     }
+     .flip6{
+         transform: rotate(180deg);
+     }
+     .flip5{
+         transform: rotate(190deg);
+     }
+     .flip7{
+         transform: rotate(160deg);
+     }
+     .flip8{
+         transform: rotate(120deg);
+     }
+     .flip9{
+         transform: rotate(90deg);
+     }
+     .flip10{
+         transform: rotate(60deg);
+     }
+     .flip11{
+         transform: rotate(30deg);
+     }
+     .flip1{
+         transform: rotate(-30deg);
+     }
